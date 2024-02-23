@@ -1,0 +1,20 @@
+/* CAROUSEL CSS */
+
+.carousel-container {
+    width: 100%; /* Set the width of the carousel container */
+    max-width: 800px; /* Set a maximum width to limit the size of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
+    padding: 20px; /* Add some padding around the carousel */
+  }
+  
+  .carousel-container .carousel .slide img {
+    height: 300px; /* Set the desired height for all images */
+    object-fit: cover; /* Ensure images cover the slide area */
+  }
+  
+  .carousel-container .carousel .control-prev, 
+  .carousel-container .carousel .control-next {
+    font-size: 10px; /* Make the arrow buttons 10 times smaller */
+    width: 20px; /* Set the width of the arrow buttons */
+  }
+ 

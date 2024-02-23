@@ -7,6 +7,9 @@ function Layout({ children }) {
   return (
     <div>
       <Navbar />
+      <div className="carousel-container">
+        <CustomCarousel />
+      </div>
       <div className="content">
         {children}
       </div>

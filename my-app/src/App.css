@@ -82,6 +82,7 @@
   max-width: 800px; /* Set a maximum width to limit the size of the carousel */
   margin: 0 auto; /* Center the carousel horizontally */
   padding: 20px; /* Add some padding around the carousel */
+  display: flex;
 }
 
 .carousel-container .carousel .slide img {

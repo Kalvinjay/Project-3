@@ -13,10 +13,10 @@ function App() {
     <Router>
       <Layout>
         <Routes>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/login" component={LoginPage} />
-        <Route path="/register" component={RegisterPage} />
-        <Route path="/update" component={UpdateInfoPage} />
+        <Route exact path="/" component={<HomePage />} />
+        <Route path="/login" component={<LoginPage />} />
+        <Route path="/register" component={<RegisterPage />} />
+        <Route path="/update" component={<UpdateInfoPage />} />
         </Routes>
       </Layout>
     </Router>

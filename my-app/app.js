@@ -29,7 +29,7 @@ app.post("/", async(req,res)=> {
     }
 })
 
-app.post("/register", async(req,res)=> {
+app.post("/signup", async(req,res)=> {
     const{email,password}=req.body
 
     const data={
@@ -54,6 +54,6 @@ app.post("/register", async(req,res)=> {
     }
 })
 
-app.listen(3000,()=> {
+app.listen(8000,()=> {
     console.log("port connected")
 })

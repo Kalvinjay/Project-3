@@ -8,11 +8,11 @@ function Navbar() {
         <img src="/JRA.png" alt="Logo" />
       </div>
       <ul className="navbar-nav">
-        <li className="nav-item">
-          <Link to="/" className="nav-link">Home</Link>
+      <li className="nav-item">
+          <Link to="/" className="nav-link">Login</Link>
         </li>
         <li className="nav-item">
-          <Link to="/login" className="nav-link">Login</Link>
+          <Link to="/home" className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
           <Link to="/update" className="nav-link">Update Information</Link>

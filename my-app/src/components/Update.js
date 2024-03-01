@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from './Layout';
+import Layout from '../Layout';
 
-function UpdateInfoPage() {
+function Update() {
   return (
     <Layout>
       {/* Your update info page content */}
@@ -9,4 +9,4 @@ function UpdateInfoPage() {
   );
 }
 
-export default UpdateInfoPage;
+export default Update;

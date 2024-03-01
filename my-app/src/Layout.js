@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 
 
 function Layout({ children }) {
@@ -9,6 +9,10 @@ function Layout({ children }) {
       <div className="content">
         {children}
       </div>
+      <footer className="footer">
+        <p>&copy; {new Date().getFullYear()} Junior Alliance. All rights reserved.</p>
+        {/* Add additional footer content as needed */}
+      </footer>
     </div>
   );
 }

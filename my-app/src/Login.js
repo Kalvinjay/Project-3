@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import Layout from '../Layout';
+import Layout from './Layout';
 import './LoginRegPage.css';
 
 function Login() {
@@ -56,7 +56,7 @@ function Login() {
         <br />
         <p>Don't have an account?</p> 
         <br />
-        <Link to="/register">Register</Link>
+        <Link to="/signup">Register</Link>
 
       </div>
 

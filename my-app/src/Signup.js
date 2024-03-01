@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import Layout from '../Layout';
+import Layout from './Layout';
 
 
-function Login() {
+function Signup() {
   
   const history=useNavigate();
 
@@ -57,7 +57,7 @@ function Login() {
         <br />
         <p>Don't have an account?</p> 
         <br />
-        <Link to="/login">Login Page</Link>
+        <Link to="/">Login</Link>
 
       </div>
 
@@ -65,4 +65,4 @@ function Login() {
   )
 }
 
-export default Login;
+export default Signup;

@@ -1,12 +1,14 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import Layout from '../Layout';
-import CustomCarousel from '../CustomCarousel';
+import Layout from './Layout';
+import CustomCarousel from './CustomCarousel';
 
 function Home() {
 
 
-    const location=useLocation()
+    // const location=useLocation();
+    // const userId = location.state?.id || '';
+    // {userId ? userId : 'Guest'} 
 
   return (
     <Layout>
@@ -14,7 +16,7 @@ function Home() {
         <CustomCarousel />
       </div>
       <div className="Homepage-container">
-        <h1 className="Homepage-title">Welcome {location.state.id} to the Junior Alliance website!</h1>
+        <h1 className="Homepage-title">Welcome to the Junior Alliance website!</h1>
           <img src="/JRA2.png" alt="Second JRA Logo" className="Homepage-img1" />
           <h2 className="Homepage-title">About</h2>
           <p className="Homepage-about">
